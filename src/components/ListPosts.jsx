@@ -9,7 +9,7 @@ const ListPosts = ({ url }) => {
 
     useEffect(() => {
         buscar(url, setPosts);
-        console.log(posts);
+        //console.log(posts);
     }, [url]);
 
     return (
